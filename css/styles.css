@@ -1,0 +1,224 @@
+:root {
+  --color-titel: #2e2f42;
+  --color-text: #434455;
+  --color-primary: #4d5ae5;
+  --first-color-btn: #4d5ae5;
+  --second-color-btn: #f4f4fd;
+  --color-btn-active: #404bbf;
+  --first-color-text-btn: #fff;
+  --second-color-text-btn: #4d5ae5;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+/*------------- HEADER------------------------*/
+.header {
+  background-color: #ffffff;
+}
+.heder-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-titel);
+}
+.header-part-logo {
+  color: var(--color-primary);
+}
+.header-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-titel);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-text);
+}
+.header-link:active {
+  color: var(--color-primary);
+}
+.header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--color-primary);
+}
+
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--color-primary);
+}
+/*------------- HERO------------------------*/
+.hero {
+  background-color: var(--color-titel);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--first-color-text-btn);
+  background-color: var(--first-color-btn);
+  cursor: pointer;
+}
+.hero-btn:active {
+  background-color: var(--color-btn-active);
+}
+/*------------- BENEFITS------------------------*/
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-titel);
+}
+.benefits-after-title {
+  letter-spacing: 0.02em;
+}
+/*------------- EXAMPLES------------------------*/
+.examples-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-titel);
+}
+/*------------- TEAM------------------------*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-titel);
+}
+.team-list {
+  background-color: #fff;
+}
+.team-item {
+  text-align: center;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-titel);
+}
+.team-after-subtitle {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/*------------- FOOTER------------------------*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-part-logo {
+  color: var(--color-primary);
+}
+.footer-text {
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/*------------- PORTFOLIO------------------------*/
+.filters-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--first-color-btn);
+  background-color: var(--second-color-btn);
+  cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  color: var(--first-color-text-btn);
+  background-color: var(--first-color-btn);
+}
+.filters-btn:active {
+  background-color: var(--color-btn-active);
+}
+.services-item {
+  background-color: #ffffff;
+}
+.services-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-titel);
+}
+.services-pre-title {
+  letter-spacing: 0.02em;
+}
