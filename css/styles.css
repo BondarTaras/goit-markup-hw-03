@@ -214,7 +214,6 @@ img {
   justify-content: space-between;
 }
 .team-img {
-  margin-bottom: 32px;
 }
 .team-title {
   font-weight: 700;
@@ -225,6 +224,12 @@ img {
   text-transform: capitalize;
   color: var(--color-titel);
   margin-bottom: 72px;
+  padding-top: 32px;
+}
+.team-border {
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .team-item {
   text-align: center;
@@ -283,7 +288,6 @@ img {
   justify-content: center;
 }
 .filters-item {
- 
 }
 .filters-btn {
   font-weight: 700;
@@ -318,12 +322,15 @@ img {
 .services-item {
   background-color: #ffffff;
   margin-bottom: 48px;
-  border: 1px solid #e7e9fc;
-  width: calc((100%-48)/3);
+  width: calc((100%-48) / 3);
   height: 420px;
 }
 .services-img {
-  margin-bottom: 32px;
+}
+.services-border {
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .services-title {
   font-weight: 500;
@@ -333,6 +340,7 @@ img {
   color: var(--color-titel);
   margin-bottom: 8px;
   margin-left: 16px;
+  padding-top: 32px;
 }
 .services-pre-title {
   letter-spacing: 0.02em;
