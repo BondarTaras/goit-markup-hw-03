@@ -325,8 +325,7 @@ img {
   width: calc((100%-48) / 3);
   height: 420px;
 }
-.services-img {
-}
+
 .services-border {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
