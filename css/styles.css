@@ -224,7 +224,6 @@ img {
   text-transform: capitalize;
   color: var(--color-titel);
   margin-bottom: 72px;
-  padding-top: 32px;
 }
 .team-border {
   border-left: 1px solid #e7e9fc;
@@ -244,6 +243,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-titel);
   margin-bottom: 8px;
+  padding-top: 32px;
 }
 .team-after-subtitle {
   text-align: center;
