@@ -144,7 +144,7 @@ img {
   margin-bottom: 48px;
 }
 .hero-btn {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   display: flex;
@@ -293,7 +293,7 @@ img {
 .filters-item {
 }
 .filters-btn {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   display: flex;
@@ -333,6 +333,9 @@ img {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 .team-img {
 }
@@ -343,11 +346,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-titel);
   margin-bottom: 8px;
-  margin-left: 16px;
-  padding-top: 32px;
 }
 .services-pre-title {
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
